@@ -16,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.lottieView.visibility = View.VISIBLE
-        binding.lottieView.speed = 1.5f
+        binding.lottieView.speed = 1.0f
 
         Thread {
             Thread.sleep(1000)

@@ -10,7 +10,22 @@
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+<!--        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>-->
         <!-- Customize your theme here. -->
+
+        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/primary</item>
+        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@color/primary</item>
+
     </style>
+
+<!--    https://sungbin.land/%EC%95%88%EB%93%9C%EB%A1%9C%EC%9D%B4%EB%93%9C12-%EC%8A%A4%ED%94%8C%EB%9E%98%EC%8B%9C-%EB%8C%80%EC%9D%91%ED%95%98%EA%B8%B0-1729f69dc33f-->
+<!--    <style name="Theme.Lottietest.Splash" parent="Theme.SplashScreen">-->
+<!--        <item name="android:windowSplashScreenBackground" tools:targetApi="s">@color/primary</item>-->
+<!--        <item name="android:windowSplashScreenAnimatedIcon" tools:targetApi="s">@color/primary</item>-->
+<!--        <item name="postSplashScreenTheme">@style/Theme.Lottietest</item>-->
+
+<!--&lt;!&ndash;        <item name="android:navigationBarColor">@color/pr</item>&ndash;&gt;-->
+<!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+<!--    </style>-->
+
 </resources>
